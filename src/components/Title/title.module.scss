@@ -1,0 +1,85 @@
+@import "../../styles/variables";
+
+.title {
+  color: $dark-high;
+  margin: 0;
+  font-size: $typographySizeXLarge;
+  font-weight: $typographyWeightBold;
+  font-family: $typographyFamilyBase;
+  letter-spacing: $typographyLetterSpacingXXXSmall;
+  line-height: $typographyLineXLarge;
+
+  &.-x-large {
+    font-size: $typographySizeXLarge;
+    letter-spacing: $typographyLetterSpacingXXXSmall;
+    line-height: $typographyLineXLarge;
+  }
+
+  &.-large {
+    font-size: $typographySizeLarge;
+    letter-spacing: $typographyLetterSpacingXXSmall;
+    line-height: $typographyLineLarge;
+  }
+
+  &.-medium {
+    font-size: $typographySizeMedium;
+    letter-spacing: $typographyLetterSpacingXSmall;
+    line-height: $typographyLineMedium;
+  }
+
+  &.-small {
+    font-size: $typographySizeSmall;
+    letter-spacing: $typographyLetterSpacingSmall;
+    line-height: $typographyLineSmall;
+  }
+
+  &.-x-small {
+    font-size: $typographySizeXSmall;
+    line-height: $typographyLineXSmall;
+  }
+
+  &.-xx-small {
+    font-size: $typographySizeXXXSmall;
+    line-height: $typographyLineXXXSmall;
+  }
+
+  &.-regular {
+    font-weight: $typographyWeightRegular;
+  }
+
+  &.-bold {
+    font-weight: $typographyWeightBold;
+  }
+
+
+  @media (max-width: $responsiveSm) {
+    &.-x-large {
+      font-size: $typographySizeLarge;
+      letter-spacing: $typographyLetterSpacingXXXSmall;
+      line-height: $typographyLineLarge;
+    }
+  
+    &.-large {
+      font-size: $typographySizeMedium;
+      letter-spacing: $typographyLetterSpacingXXSmall;
+      line-height: $typographyLineMedium;
+    }
+  
+    &.-medium {
+      font-size: $typographySizeSmall;
+      letter-spacing: $typographyLetterSpacingXSmall;
+      line-height: $typographyLineSmall;
+    }
+  
+    &.-small {
+      font-size: $typographySizeXSmall;
+      letter-spacing: $typographyLetterSpacingSmall;
+      line-height: $typographyLineXSmall;
+    }
+  
+    &.-x-small {
+      font-size: $typographySizeXXSmall;
+      line-height: $typographyLineXXSmall;
+    }
+  }
+}

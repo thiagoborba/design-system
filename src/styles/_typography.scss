@@ -1,0 +1,53 @@
+$typographyFamilyBase: "Roboto", sans-serif !default;
+
+$typographySizeXXXSmall: 16px !default;
+$typographySizeXXSmall: 18px !default;
+$typographySizeXSmall: 20px !default;
+$typographySizeSmall: 24px !default;
+$typographySizeMedium: 32px !default;
+$typographySizeLarge: 40px !default;
+$typographySizeXLarge: 48px !default;
+
+$typographyWeightRegular: 400 !default;
+$typographyWeightBold: 700 !default;
+
+$typographyLineXXXSmall: 20px !default;
+$typographyLineXXSmall: 22px !default;
+$typographyLineXSmall: 24px !default;
+$typographyLineSmall: 28px !default;
+$typographyLineMedium: 36px !default;
+$typographyLineLarge: 44px !default;
+$typographyLineXLarge: 52px !default;
+
+$typographyLetterSpacingSmall: -0.6px !default;
+$typographyLetterSpacingXSmall: -0.8px !default;
+$typographyLetterSpacingXXSmall: -1px !default;
+$typographyLetterSpacingXXXSmall: -1.2px !default;
+
+:export {
+  typographyFamilyBase: $typographyFamilyBase;
+
+  typographySizeXXXSmall: $typographySizeXXXSmall;
+  typographySizeXXSmall: $typographySizeXXSmall;
+  typographySizeXSmall: $typographySizeXSmall;
+  typographySizeSmall: $typographySizeSmall;
+  typographySizeMedium: $typographySizeMedium;
+  typographySizeLarge: $typographySizeLarge;
+  typographySizeXLarge: $typographySizeXLarge;
+  
+  typographyWeightRegular: $typographyWeightRegular;
+  typographyWeightBold: $typographyWeightBold;
+  
+  typographyLineXXXSmall: $typographyLineXXXSmall;
+  typographyLineXXSmall: $typographyLineXXSmall;
+  typographyLineXSmall: $typographyLineXSmall;
+  typographyLineSmall: $typographyLineSmall;
+  typographyLineMedium: $typographyLineMedium;
+  typographyLineLarge: $typographyLineLarge;
+  typographyLineXLarge: $typographyLineXLarge;
+  
+  typographyLetterSpacingSmall: $typographyLetterSpacingSmall;
+  typographyLetterSpacingXSmall: $typographyLetterSpacingXSmall;
+  typographyLetterSpacingXXSmall: $typographyLetterSpacingXXSmall;
+  typographyLetterSpacingXXXSmall: $typographyLetterSpacingXXXSmall;
+}
