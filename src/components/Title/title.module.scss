@@ -43,15 +43,6 @@
     line-height: $typographyLineXXXSmall;
   }
 
-  &.-regular {
-    font-weight: $typographyWeightRegular;
-  }
-
-  &.-bold {
-    font-weight: $typographyWeightBold;
-  }
-
-
   @media (max-width: $responsiveSm) {
     &.-x-large {
       font-size: $typographySizeLarge;

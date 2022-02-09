@@ -4,7 +4,6 @@ import styles from './title.module.scss';
 
 export interface Props extends React.HTMLAttributes<HTMLHeadingElement> {
   size?: 'xx-small' | 'x-small' | 'small' | 'medium' | 'large' | 'x-large';
-  weight?: 'regular' | 'bold';
   [key: string]: any;
 }
 
@@ -22,8 +21,6 @@ export const Title: React.FunctionComponent<Props> = ({
       [styles['-medium']]: size === 'medium',
       [styles['-large']]: size === 'large',
       [styles['-x-large']]: size === 'x-large',
-      [styles['-regular']]: weight === 'regular',
-      [styles['-bold']]: weight === 'bold',
     })}
     {...props}
   >
