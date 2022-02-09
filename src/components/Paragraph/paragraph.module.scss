@@ -3,6 +3,7 @@
 .paragraph {
   font-family: $typographyFamilyBase;
   font-size: $typographySizeXXXSmall;
+  color: $darkHigh;
   padding: 0;
   margin: 0;
 
@@ -12,5 +13,21 @@
 
   &.-bold {
     font-weight: $typographyWeightBold;
+  }
+
+  &.-darkLow {
+    color: $darkLow;
+  }
+  &.-darkMedium {
+    color: $darkMedium;
+  }
+  &.-darkHigh {
+    color: $darkHigh;
+  }
+  &.-lightSolid {
+    color: $lightSolid;
+  }
+  &.-lightHigh {
+    color: $lightHigh;
   }
 }

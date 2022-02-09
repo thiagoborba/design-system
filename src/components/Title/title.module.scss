@@ -1,13 +1,29 @@
 @import "../../styles/variables";
 
 .title {
-  color: $dark-high;
+  color: $darkHigh;
   margin: 0;
   font-size: $typographySizeXLarge;
   font-weight: $typographyWeightBold;
   font-family: $typographyFamilyBase;
   letter-spacing: $typographyLetterSpacingXXXSmall;
   line-height: $typographyLineXLarge;
+
+  &.-darkLow {
+    color: $darkLow;
+  }
+  &.-darkMedium {
+    color: $darkMedium;
+  }
+  &.-darkHigh {
+    color: $darkHigh;
+  }
+  &.-lightSolid {
+    color: $lightSolid;
+  }
+  &.-lightHigh {
+    color: $lightHigh;
+  }
 
   @at-root h1#{&} {
     font-size: $typographySizeXLarge;

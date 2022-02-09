@@ -13,10 +13,12 @@ export const Bold = Template.bind({});
 Bold.args = {
   children: 'Bold',
   weight: 'bold',
+  color: 'darkHigh'
 };
 
 export const Regular = Template.bind({});
 Regular.args = {
   children: 'Regular',
   weight: 'regular',
+  color: 'darkHigh'
 };

@@ -1,16 +1,14 @@
-$dark-low: rgba(0, 0, 0, 0.44);
-$dark-medium: rgba(0, 0, 0, 0.60);
-$dark-high: rgba(0, 0, 0, 0.80);
+$darkLow: rgba(0, 0, 0, 0.44);
+$darkMedium: rgba(0, 0, 0, 0.60);
+$darkHigh: rgba(0, 0, 0, 0.80);
 
-$light-solid: #FFFFFF;
-$light-high: rgba(255, 255, 255, 0.80);
-$test: red;
+$lightSolid: #FFFFFF;
+$lightHigh: rgba(255, 255, 255, 0.80);
 
 :export {
-  test: $test;
-  dark-low: $dark-low;
-  dark-medium: $dark-medium;
-  dark-high: $dark-high;
-  light-solid: $light-solid;
-  light-high: $light-high;
+  darkLow: $darkLow;
+  darkMedium: $darkMedium;
+  darkHigh: $darkHigh;
+  lightSolid: $lightSolid;
+  lightHigh: $lightHigh;
 }
