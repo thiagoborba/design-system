@@ -4,12 +4,12 @@ import { Title } from './components/Title/Title'
 function App() {
   return (
     <React.Fragment>
-      <Title size="x-large">x-large Title</Title>
-      <Title size="large">large Title</Title>
-      <Title size="medium">medium Title</Title>
-      <Title size="small">small Title</Title>
-      <Title size="x-small">x-small</Title>
-      <Title size="xx-small">xx-small</Title>
+      <Title>x-large Title</Title>
+      <Title as='h2'>large Title</Title>
+      <Title as='h3'>medium Title</Title>
+      <Title as='h4'>small Title</Title>
+      <Title as='h5'>x-small Title</Title>
+      <Title as="h6">xx-small Title</Title>
     </React.Fragment>
   );
 }

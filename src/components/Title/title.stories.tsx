@@ -12,36 +12,38 @@ const Template: ComponentStory<typeof Title> = (args) => <Title {...args}/>;
 
 export const Display = Template.bind({});
 Display.args = {
-  children: 'Display',
-  size: 'x-large',
+  children: 'Heading XL',
+  as: 'h1',
 };
 
 export const HeadingL = Template.bind({});
 HeadingL.args = {
   children: 'Heading L',
-  size: 'large',
+  as: 'h2',
 };
 
 export const HeadingM = Template.bind({});
 HeadingM.args = {
   children: 'Heading M',
-  size: 'medium',
+  as: 'h3',
+
 };
 
 export const HeadingS = Template.bind({});
 HeadingS.args = {
   children: 'Heading S',
-  size: 'small',
+  as: 'h4',
+
 };
 
 export const HeadingXS = Template.bind({});
 HeadingXS.args = {
   children: 'Heading XS',
-  size: 'x-small',
+  as: 'h5',
 };
 
 export const subHeading = Template.bind({});
 subHeading.args = {
   children: 'Sub Heading',
-  size: 'xx-small',
+  as: 'h6',
 };

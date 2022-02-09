@@ -9,66 +9,66 @@
   letter-spacing: $typographyLetterSpacingXXXSmall;
   line-height: $typographyLineXLarge;
 
-  &.-x-large {
+  @at-root h1#{&} {
     font-size: $typographySizeXLarge;
     letter-spacing: $typographyLetterSpacingXXXSmall;
     line-height: $typographyLineXLarge;
   }
 
-  &.-large {
+  @at-root h2#{&} {
     font-size: $typographySizeLarge;
     letter-spacing: $typographyLetterSpacingXXSmall;
     line-height: $typographyLineLarge;
   }
 
-  &.-medium {
+  @at-root h3#{&} {
     font-size: $typographySizeMedium;
     letter-spacing: $typographyLetterSpacingXSmall;
     line-height: $typographyLineMedium;
   }
 
-  &.-small {
+  @at-root h4#{&} {
     font-size: $typographySizeSmall;
     letter-spacing: $typographyLetterSpacingSmall;
     line-height: $typographyLineSmall;
   }
 
-  &.-x-small {
+  @at-root h5#{&} {
     font-size: $typographySizeXSmall;
     line-height: $typographyLineXSmall;
   }
 
-  &.-xx-small {
+  @at-root h6#{&} {
     font-size: $typographySizeXXXSmall;
     line-height: $typographyLineXXXSmall;
   }
 
   @media (max-width: $responsiveSm) {
-    &.-x-large {
+    @at-root h1#{&} {
       font-size: $typographySizeLarge;
       letter-spacing: $typographyLetterSpacingXXXSmall;
       line-height: $typographyLineLarge;
     }
   
-    &.-large {
+    @at-root h2#{&} {
       font-size: $typographySizeMedium;
       letter-spacing: $typographyLetterSpacingXXSmall;
       line-height: $typographyLineMedium;
     }
-  
-    &.-medium {
+
+    @at-root h3#{&} {
       font-size: $typographySizeSmall;
       letter-spacing: $typographyLetterSpacingXSmall;
       line-height: $typographyLineSmall;
     }
   
-    &.-small {
+    @at-root h4#{&} {
       font-size: $typographySizeXSmall;
       letter-spacing: $typographyLetterSpacingSmall;
       line-height: $typographyLineXSmall;
     }
   
-    &.-x-small {
+    @at-root h5#{&} {
       font-size: $typographySizeXXSmall;
       line-height: $typographyLineXXSmall;
     }

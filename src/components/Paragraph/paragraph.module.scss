@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+.paragraph {
+  font-family: $typographyFamilyBase;
+  font-size: $typographySizeXXXSmall;
+  padding: 0;
+  margin: 0;
+
+  &.-regular {
+    font-weight: $typographyWeightRegular;
+  }
+
+  &.-bold {
+    font-weight: $typographyWeightBold;
+  }
+}
