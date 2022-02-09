@@ -13,12 +13,12 @@ type Weight = 'regular' | 'bold'
 
 export interface Props extends React.HTMLAttributes<HTMLParagraphElement> {
   weight?: Weight;
-  color: Color;
+  color?: Color;
 }
 
 export const Paragraph: React.FunctionComponent<Props> = ({
   weight = 'regular',
-  color,
+  color = 'darkHigh',
   className,
   children,
   ...props

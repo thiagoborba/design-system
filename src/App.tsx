@@ -1,5 +1,5 @@
 import React from "react";
-import { Title } from './components/Title/Title'
+import { Title, Paragraph } from './components'
 
 function App() {
   return (
@@ -10,6 +10,9 @@ function App() {
       <Title as='h4'>small Title</Title>
       <Title as='h5'>x-small Title</Title>
       <Title as="h6">xx-small Title</Title>
+
+      <Paragraph>Paragrapah Regular</Paragraph>
+      <Paragraph weight="bold">Paragrapah Bold</Paragraph>
     </React.Fragment>
   );
 }

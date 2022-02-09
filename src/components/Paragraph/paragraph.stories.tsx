@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { Paragraph } from './Paragraph';
+import { Paragraph } from '.';
 
 export default {
   title: 'Components / Paragraph',
