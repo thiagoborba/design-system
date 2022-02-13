@@ -22,4 +22,4 @@ Para rodar o projeto antes precisa ser feita a instalação das dependências.
 
 `yarn run storybook`
 
-Após rodar `yarn run storybook`, será aberta uma nova aba no navegador rodando o projeto,
+Após rodar `yarn run storybook`, será aberta uma nova aba no navegador rodando o projeto.
