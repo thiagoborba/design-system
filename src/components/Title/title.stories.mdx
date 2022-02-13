@@ -1,0 +1,94 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs';
+import { Title } from './index.tsx';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
+
+
+<Meta title="Components/Title" component={Title} tab />
+
+export const Template = (args) => <Title {...args} />;
+
+# Title
+
+O componente `<Title />` é utilizado para marcar títulos nas páginas. O compoennte pode conter as seguintes propriedade e valores:
+
+<ArgsTable of={Title} />
+
+## Modo de uso
+
+<Canvas>
+  <Story
+    args={{
+      children: 'Title XL',
+      as: 'h1',
+      color: 'darkHigh'
+    }}
+    name="Title XL"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story
+    args={{
+      children: 'Title L',
+      as: 'h2',
+      color: 'darkHigh'
+    }}
+    name="Title L"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story
+    args={{
+      children: 'Title M',
+      as: 'h3',
+      color: 'darkHigh'
+    }}
+    name="Title M"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story
+    args={{
+      children: 'Title S',
+      as: 'h4',
+      color: 'darkHigh'
+    }}
+    name="Title S"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story
+    args={{
+      children: 'Title XS',
+      as: 'h5',
+      color: 'darkHigh'
+    }}
+    name="Title XS"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story
+    args={{
+      children: 'Title XXS',
+      as: 'h6',
+      color: 'darkHigh'
+    }}
+    name="Title XXS"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>

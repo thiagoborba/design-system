@@ -1,0 +1,42 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs';
+import { Paragraph } from './index.tsx';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
+
+
+<Meta title="Components/Paragraph" component={Paragraph} tab />
+
+export const Template = (args) => <Paragraph {...args} />;
+
+# Paragraph
+
+O componente `<Paragraph/>` é utilizado para adionar textos nas páginas. O componente contem as seguintes propriedade e valores.
+
+<ArgsTable of={Paragraph} />
+
+## Modo de uso
+
+<Canvas>
+  <Story
+    args={{
+      children: 'Regular',
+      weight: 'regular',
+      color: 'darkHigh'
+    }}
+    name="Regular"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story
+    args={{
+      children: 'Bold',
+      weight: 'bold',
+      color: 'darkHigh'
+    }}
+    name="Bold"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
