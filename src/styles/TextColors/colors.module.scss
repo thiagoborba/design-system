@@ -1,0 +1,43 @@
+@import "../variables.scss";
+
+.container {
+  width: 900px;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.colors {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px $darkLow;
+
+  &.-darkLow {
+    background-color  : $darkLow;
+    color: $lightSolid;
+  }
+  &.-darkMedium {
+    background-color: $darkMedium;
+    color: $lightSolid;
+
+  }
+  &.-darkHigh {
+    background-color: $darkHigh;
+    color: $lightSolid;
+
+  }
+  &.-lightSolid {
+    background-color: $lightSolid;
+    color: $darkHigh;
+  }
+  &.-lightHigh {
+    background-color: $lightHigh;
+    color: $darkHigh;
+  
+  }
+} 

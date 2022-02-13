@@ -1,3 +1,5 @@
+import '../src/styles/_reset.scss';
+
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
